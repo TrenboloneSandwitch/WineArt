@@ -1,0 +1,133 @@
+ {
+     "pinot": {
+         "hr": "pills-pinot-chev",
+         "name": "Pinot-Chevauchet Champagne",
+         "img": "img/crbst_logo.png",
+         "text": "Champagne house Pinot-Chevauchet je malé rodinné vinařství, které se nachází v samotném srdci Champagne ve vesničce Moussy (4km od Epernay). Na rozloze 4ha se rozkládá 27 vinic, které jsou všechny v apelaci Premier-Cru. Zdejší vína jsou výrazně ovlivněna specifickým vápenito-jílovitým teroir. Roční produkce tohoto domu je 35 000 lahví. Vysoký standard kvality, je zaručen zráním všech láhví minimálně po dobu 5 let.",
+         "id": 1,
+         "bottles": [{
+                 "id": "1",
+                 "name": "Cuvée Joyeuse Brut",
+                 "species": ["80% - Meunier", "20% - Chardonnay"],
+                 "dosage": "8",
+                 "img": "img/wines/crbst_joyeuse_20brut.png",
+                 "description": ["harmonické minerální víno s medovými tóny a závěrem do sušeného ovoce"]
+             },
+             {
+                 "id": "2",
+                 "name": "Cuvée Généreuse Brut Nature",
+                 "species": ["90% Meunier", "10% Chardonnay"],
+                 "dosage": "2",
+                 "img": "img/wines/2.png",
+                 "description": ["minimum 5 let na kvasnicích, poté ještě rok ve sklepě", "svěží, příjemné víno s nádechem bílého ovoce"]
+             },
+             {
+                 "id": "3",
+                 "name": "Distinguée",
+                 "species": ["100% - Chardonnay"],
+                 "dosage": "3,5",
+                 "img": "img/wines/crbst_blanc_20de_20blanc.png",
+                 "description": ["minerální,velmi svěží víno s nádechem zralého ovoce", "TOP nabídka (bronzová medaile Decanter 2017 – 89b.)"]
+             },
+             {
+                 "id": "4",
+                 "name": "Distinguée",
+                 "species": ["100% - Chardonnay"],
+                 "dosage": "3,5",
+                 "img": "img/wines/crbst_blanc_20de_20blanc.png",
+                 "description": ["minerální,velmi svěží víno s nádechem zralého ovoce", "Cuvée Blanc de Blancs Extra Brut Premier-Cru <b>MAGNUM</b>"]
+             },
+             {
+                 "id": "5",
+                 "name": "Vintage 2008 Premier-Cru Blanc de Blancs",
+                 "species": ["100% - Chardonnay"],
+                 "dosage": "7,5",
+                 "img": "img/wines/crbst_millesime_202008.png",
+                 "description": ["elegantní a svěží víno z tohoto výjimečného ročníku s velmi jemným perlením", "vše krásně doplňuje aroma toastů a čerstvých briošek"]
+             },
+             {
+                 "id": "6",
+                 "name": "Cuvée Précieuse Brut Premier-Cru",
+                 "species": ["50% - Meunier", "50% - Chardonnay"],
+                 "dosage": "7,5",
+                 "img": "img/wines/crbst_precieuse.png",
+                 "description": ["nádherné, dobře vyvážené šampaňské, které skutečně ukazuje svěžest a jemnost Chardonnay a ovocnou chuť Pinot Meunier", "výsledkem je šampaňské s nádechem citrusů a vanilky"]
+             },
+             {
+                 "id": "7",
+                 "name": "Cuvée Rêveuse Brut Rosé",
+                 "species": ["50% - Chardonnay", "30% - Meunier", "20% - Pinot Noir"],
+                 "dosage": "8",
+                 "img": "img/wines/crbst_ros_C3_A9.png",
+                 "description": ["světle růžová, čistě jasná barva s jemnými, hojnými bublinkami", "svěží a elegantní vůně snoubící jemné aroma jahod, malin a citrusů"]
+             }
+         ]
+     },
+     "collet": {
+         "hr": "pills-collet",
+         "name": "Domaine Collet Champagne",
+         "img": "img/logoDomaine1.png",
+         "text": "Velmi mladé progresivní vinařství oblasti Sezanne, za kterým stojí tři bratři Thomas, Vincent a Florent. Hlavními pěstovanými odrůdami jsou Chardonnay a Pinot Noir, které jsou pro tuto oblast typické a lze na nich odhalit místní terroir. Typické pro jejich vína je fermentace v dřevěných sudech.",
+         "id": 2,
+         "bottles": [{
+                 "id": "1",
+                 "name": "Empreinte de Terroir Brut",
+                 "species": ["70% - Chardonnay", "30% - Pinot Noir"],
+                 "dosage": "7-8",
+                 "img": "img/wines/Empreinte-Brut.png",
+                 "description": ["příjemný expresivní nos s tóny dužin jablíček a hrušek, závěr lehce do mandlí", "chuť připomínající citrusové a exotické plody, skvělé, svěží letní champagne"]
+             },
+             {
+                 "id": "2",
+                 "name": "Empreinte de Terroir Rosé",
+                 "species": ["59% - Pinot Noir", "41% - Chardonnay"],
+                 "dosage": "8",
+                 "img": "img/wines/Rose.png",
+                 "description": ["růžové šampaňské s výjimečnou ovocností,  intenzivní vůně s dominancí červeného ovoce - lesních jahod, třešní, malin", "v chuti naleznete výrazné tóny červeného ovoce, vše zabaleno do krásné rafinované podoby"]
+             },
+             {
+                 "id": "3",
+                 "name": "Empreinte de Terroir Chardonnay ",
+                 "species": ["100% - Chardonnay"],
+                 "dosage": "6",
+                 "img": "img/wines/Chardonnay.png",
+                 "description": ["svěží minerální aroma s květinami a citrusy", "líbivé, svěží, typické Blanc de Blancs pro tuto oblast"]
+             },
+             {
+                 "id": "4",
+                 "name": "Empreinte de Terroir Extra Brut",
+                 "species": ["72% - Chardonnay, 28% - Pinot Noir"],
+                 "dosage": "1",
+                 "img": "img/wines/Extra-Brut.png",
+                 "description": ["aroma po bílém a žlutém ovoci", "velmi nízká dosage, skvělá vyváženost chuti mezi kyselostí a ovocností"]
+             },
+             {
+                 "id": "5",
+                 "name": "Anthime Héritage",
+                 "species": ["70% - Chardonnay", "30% - Pinot Noir"],
+                 "dosage": "3.6",
+                 "img": "img/wines/ANTHIME-heritage.png",
+                 "description": ["skvělé komplexní champagne, selekce nejlepších hroznů", "aroma zpočátku karamelovo-máslové, čerstvě pečených briošek, poté přejde do minerálních a ovocných tónů", "velmi bohatě strukturovaná chuť s dlouhým závěrem"]
+             },
+             {
+                 "id": "6",
+                 "name": "Anthime Sensation",
+                 "species": ["78% - Pinot Noir", "22% - Chardonnay"],
+                 "dosage": "5.5",
+                 "img": "img/wines/ANTHIME-sensation.png",
+                 "description": ["zdůraznění významnosti Pinotu Noir pro vinařství, hrozny pochází ze 70 let starých vinic „Les Vignes“, macerovány metoudou „Rosé  de Saignée“", "na nose velmi příjemně rozvinuté aroma, kde převládají jahodo-malinové tóny",
+                     "Plné, svěží rosé s jemnými tóny dřevěných sudů"
+                 ]
+             },
+             {
+                 "id": "7",
+                 "name": "Anthime Extreme",
+                 "species": ["100% - Chardonnay"],
+                 "dosage": "2",
+                 "img": "img/wines/ANTHIME-extreme.png",
+                 "description": ["unikátní champage, hrozny z jedné vinice, mikrovinifikace v dřevěných sudech, nízká dosáž", "krásné svěží champagne s tóny čerstvých a pečených ořechů", "dominantní citrusová a minerální chuť zdobí toto prestižní cuvée"]
+             }
+         ]
+     }
+
+ }
