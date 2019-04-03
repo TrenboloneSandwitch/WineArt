@@ -65,6 +65,8 @@
 
 
 <body style="overflow-x:hidden;" id="page-top" data-spy="scroll" data-target="#navbar-main" data-offset="30">
+	<button class="translate" id="en">English</button>
+	<button class="translate" id="cs">Czech</button>
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light container-fluid fixed-top smooth-scroll" id="navbar-main">
 		<a href="#" class="navbar-brand" id="navbar-brand-id"></a>
@@ -81,16 +83,19 @@
 		<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-4">
 				<li class="nav-item">
-					<a href="#about" class="nav-link underline-text">O nás</a>
+					<a href="#about" class="nav-link underline-text lang" lang-key="about">O nás</a>
 				</li>
 				<li class="nav-item">
-					<a href="#services" class="nav-link underline-text">Služby</a>
+					<a href="#services" class="nav-link underline-text lang" lang-key="services">Služby</a>
 				</li>
 				<li class="nav-item">
-					<a href="#offer" class="nav-link underline-text">Nabídka</a>
+					<a href="#offer" class="nav-link underline-text lang" lang-key="offer">Nabídka</a>
 				</li>
 				<li class="nav-item">
-					<a href="#contact" class="nav-link underline-text">Kontakt</a>
+					<a href="#contact" class="nav-link underline-text lang" lang-key="contact">Kontakt</a>
+				</li>
+				<li class="nav-item">
+					<a href="#timeline" class="nav-link underline-text">Timeline</a>
 				</li>
 			</ul>
 		</div>
@@ -111,26 +116,29 @@
 		<div id="about" class="container pt-4">
 
 			<div class="row justify-content-center">
-				<h1 class="display-4 m-0 pt-5 col-12 text-center">O nás</h1>
-				<p class="text-block col-12 aos-init aos-animated" data-aos-once="true" data-aos="fade-right" data-aos-duration="1000">Naší
+				<h1 class="display-4 m-0 pt-5 col-12 text-center lang" lang-key="about">O nás</h1>
+				<p class="text-block col-12 aos-init aos-animated" data-aos-once="true" data-aos="fade-right" data-aos-duration="1000">
+					<span class="lang" lang-key="about--text-one">
+					Naší
 					filosofií je dostat mezi milovníky vína něco trochu jiného a exluzivnějšího, než je aktuální nabídka
 					velkoproducentů. Reprezentujeme pouze svá vína na webu nebo eshopu, vše je na bázi osobní
 					spolupráce. Naše motto
-					zní, že <span class="text-highlighted">život je příliš krátký na to, abychom pili nekvalitní
+					zní, že </span><span class="text-highlighted lang" lang-key="about--text-two">život je příliš krátký na to, abychom pili nekvalitní
 						víno.</span>
 					<br>
+					<span class="lang" lang-key="about--text-three">
 					Spolupracujeme s malými rodinnými vinařstvími na osobní bázi. V rámci svých aktivit pořádáme často
 					degustace jak u
 					nás, tak přímo u zákazníků, kde se právě snažíme co nejvíce přiblížit myšlenky jednotlivých
 					vinařství a jejich
-					přístup k výrobě vína.
+					přístup k výrobě vína.</span>
 				</p>
 				<p class="text-block col-12 aos-init aos-animated smooth-scroll" data-aos-once="true" data-aos="fade-right">
-					V případě jakýchkoliv dotazů či podmětů nás neváhejte
-					<a href="#contact">kontaktovat
+					<span class="lang" lang-key="about--text-fourth">V případě jakýchkoliv dotazů či podmětů nás neváhejte </span> 
+					<a href="#contact" class="lang"  lang-key="about--text-fifth">kontaktovat
 						<i class="fas fa-angle-double-down"></i>
 					</a>.</p>
-				<p class="text-block col-12 aos-init aos-animated" data-aos-once="true" data-aos="fade-right">Těšíme se
+				<p class="text-block col-12 aos-init aos-animated lang" data-aos-once="true" data-aos="fade-right"  lang-key="about--text-sixth">Těšíme se
 					až si
 					společně
 					vychutnáme sklenku našich prvotřídních produktů!</p>
@@ -315,6 +323,18 @@
 
 	<div id="mapID" class=" aos-init aos-animated" data-aos-once="true" data-aos="fade-up" data-aos-duration="1000">
 	</div>
+
+	<div class="container-fluid dark">
+		<div id="timeline" class="container pt-4">
+			<div class="row justify-content-center">
+				<h1 class="display-4 mt-0 col-12 text-center pt-5">Timeline</h1>
+				<div class="col-12 timeline__container">
+
+				</div>
+			</div> 
+		</div> 
+	</div>
+
 
 
 
