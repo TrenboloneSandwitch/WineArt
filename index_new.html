@@ -25,7 +25,7 @@
             $uspech = mb_send_mail($adresa, $predmet, $contentMsg, $hlavicka);
             if ($uspech)
             {
-                $hlaska = 'Email byl úspěšně odeslán, brzy vám odpovíme.';
+                $hlaska = 'Email byl úspěšně odeslán, brzy vám odpovíme. / Email was successfully sent. We will reply as soon as possible.';
                 header('Location: index.php?uspech=ano#contactFormQt');
                 exit;
             }
@@ -94,9 +94,9 @@
 				<li class="nav-item">
 					<a href="#contact" class="nav-link underline-text lang" lang-key="contact">Kontakt</a>
 				</li>
-				<li class="nav-item">
+				<!-- <li class="nav-item">
 					<a href="#timeline" class="nav-link underline-text">Timeline</a>
-				</li>
+				</li> -->
 			</ul>
 		</div>
 	</nav>
@@ -123,8 +123,7 @@
 					filosofií je dostat mezi milovníky vína něco trochu jiného a exluzivnějšího, než je aktuální nabídka
 					velkoproducentů. Reprezentujeme pouze svá vína na webu nebo eshopu, vše je na bázi osobní
 					spolupráce. Naše motto
-					zní, že </span><span class="text-highlighted lang" lang-key="about--text-two">život je příliš krátký na to, abychom pili nekvalitní
-						víno.</span>
+					zní, že </span><span class="text-highlighted lang" lang-key="about--text-two">život je příliš krátký na to, abychom pili nekvalitní víno.</span>
 					<br>
 					<span class="lang" lang-key="about--text-three">
 					Spolupracujeme s malými rodinnými vinařstvími na osobní bázi. V rámci svých aktivit pořádáme často
@@ -135,9 +134,8 @@
 				</p>
 				<p class="text-block col-12 aos-init aos-animated smooth-scroll" data-aos-once="true" data-aos="fade-right">
 					<span class="lang" lang-key="about--text-fourth">V případě jakýchkoliv dotazů či podmětů nás neváhejte </span> 
-					<a href="#contact" class="lang"  lang-key="about--text-fifth">kontaktovat
-						<i class="fas fa-angle-double-down"></i>
-					</a>.</p>
+					<a href="#contact"><span class="lang" lang-key="about--text-fifth">kontaktovat</span> <i class="fas fa-angle-double-down"></i>
+					</a> .</p>
 				<p class="text-block col-12 aos-init aos-animated lang" data-aos-once="true" data-aos="fade-right"  lang-key="about--text-sixth">Těšíme se
 					až si
 					společně
@@ -158,48 +156,41 @@
 	<div class="container-fluid light">
 		<div id="services" class="container pt-4">
 			<div class="row justify-content-center">
-				<h1 class="display-4 m-0 pt-5 col-12 text-center">Služby</h1>
-				<p class="text-block col-12 aos-init aos-animated" data-aos-once="true" data-aos="fade-right" data-aos-duration="1000">Nabízíme
-					jedinečné služby ve světě vína – smyslem není pouze prodej vína,
-					ale hlavně spokojenost zákazníků a jejich rostoucí zájem o víno. Díky tomu můžete ochutnat vína
-					přímo <span class="text-highlighted-light"> od vinařů, kteří jeho výrobě dávají 100% úsilí</span>, a
-					tím víno získává jedinečný charakter.
+				<h1 class="display-4 m-0 pt-5 col-12 text-center lang" lang-key="services">Služby</h1>
+				<p class="text-block col-12 aos-init aos-animated" data-aos-once="true" data-aos="fade-right" data-aos-duration="1000">
+					<span class="lang" lang-key="services--text-first">Nabízíme jedinečné služby ve světě vína – smyslem není pouze prodej vína, ale hlavně spokojenost zákazníků a jejich rostoucí zájem o víno. Díky tomu můžete ochutnat vína přímo </span>
+					<span class="text-highlighted-light lang" lang-key="services--text-second">od vinařů, kteří jeho výrobě dávají 100% úsilí</span><span class="lang" lang-key="services--text-third">, a tím víno získává jedinečný charakter.</span>
 					<br>
-					<span class="text-highlighted-light">Za kvalitou pečlivě uskladněných lahví si stojíme</span> a vše
-					několikrát ročně ochutnáváme, takže se nemusíte bát nechat si od nás poradit.
+					<span class="text-highlighted-light lang" lang-key="services--text-fourth">Za kvalitou pečlivě uskladněných lahví si stojíme</span> <span class="lang" lang-key="services--text-fifth">a vše
+					několikrát ročně ochutnáváme, takže se nemusíte bát nechat si od nás poradit.</span>
 					<br>
-					Možná právě vymýšlíte originální dar pro přátelé či vaše blízké? Proč ne právě vínko s nějakou
-					delikatesou! Ideální narozeninový nebo svatební dar, který musí potěšit každého!
+					<span class="lang" lang-key="services--text-sixth">Možná právě vymýšlíte originální dar pro přátelé či vaše blízké? Proč ne právě vínko s nějakou delikatesou! Ideální narozeninový nebo svatební dar, který musí potěšit každého!</span>
 				</p>
 				<div class="col-12">
 					<div class="row text-center">
 						<div class="col-es-12 col-sm-6 col-lg-3 aos-init aos-animated" data-aos-once="true" data-aos="fade-down"
 						 data-aos-duration="1000">
 							<i class="flaticon-wine-tasting"></i>
-							<h4>Degustace</h4>
-							<p>Pravidelně pořádáme soukromé degustace s odborným výkladem. Všechny ochutnané láhve je
-								také možné na místě přímo objednat.</p>
+							<h4 class="lang" lang-key="services--deg-one">Degustace</h4>
+							<p class="lang" lang-key="services--deg-two">Pravidelně pořádáme soukromé degustace s odborným výkladem. Všechny ochutnané láhve je také možné na místě přímo objednat.</p>
 						</div>
 						<div class="col-es-12 col-sm-6 col-lg-3 aos-init aos-animated" data-aos-once="true" data-aos="fade-down"
 						 data-aos-duration="1000">
 							<i class="flaticon-grapes"></i>
-							<h4>Návštěva vinic</h4>
-							<p>Na přání jsme Vám schopni zajistit návštěvu u vinaře. Ať již u našich partnerů na Moravě,
-								tak v i v oblasti Champagne.</p>
+							<h4 class="lang" lang-key="services--vis-one">Návštěva vinic</h4>
+							<p class="lang" lang-key="services--vis-two">Na přání jsme Vám schopni zajistit návštěvu u vinaře. Ať již u našich partnerů na Moravě, tak v i v oblasti Champagne.</p>
 						</div>
 						<div class="col-es-12 col-sm-6 col-lg-3 aos-init aos-animated" data-aos-once="true" data-aos="fade-down"
 						 data-aos-duration="1000">
 							<i class="flaticon-discuss-issue"></i>
-							<h4>Doporučení</h4>
-							<p>Rádi poradíme ať již s výběrem té správné láhve nebo s výletem k vinaři, tak abyste si ho
-								maximáloně užili a obohatili svoje znalosti.</p>
+							<h4 class="lang" lang-key="services--rec-one">Doporučení</h4>
+							<p class="lang" lang-key="services--rec-two">Rádi poradíme ať již s výběrem té správné láhve nebo s výletem k vinaři, tak abyste si ho maximáloně užili a obohatili svoje znalosti.</p>
 						</div>
 						<div class="col-es-12 col-sm-6 col-lg-3 aos-init aos-animated" data-aos-once="true" data-aos="fade-down"
 						 data-aos-duration="1000">
 							<i class="flaticon-shopping-cart"></i>
-							<h4>Prodej</h4>
-							<p>Nabízíme pouze námi odzkoušené a pečlivě uskladněné láhve. Samozřejmostí je osobní
-								přístup při každém nákupu. Ozvěte se a nechte starost na nás.</p>
+							<h4 class="lang" lang-key="services--sell-one">Prodej</h4>
+							<p class="lang" lang-key="services--sell-two">Nabízíme pouze námi odzkoušené a pečlivě uskladněné láhve. Samozřejmostí je osobní přístup při každém nákupu. Ozvěte se a nechte starost na nás.</p>
 						</div>
 					</div>
 				</div>
@@ -215,7 +206,7 @@
 	<div class="container-fluid dark">
 		<div id="offer" class="container pt-4">
 			<div class="row justify-content-center">
-				<h1 class="display-4 mt-0 pt-5 col-12 text-center">Nabídka</h1>
+				<h1 class="display-4 mt-0 pt-5 col-12 text-center lang" lang-key="offer">Nabídka</h1>
 				
 				<!--Wine List dynamically adding from JS-->
 				<ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
@@ -237,9 +228,9 @@
 	<div class="container-fluid light">
 		<div id="contact" class="container pt-4">
 			<div class="row justify-content-center">
-				<h1 class="display-4 mt-0 col-12 text-center pt-5">Kontakt</h1>
+				<h1 class="display-4 mt-0 col-12 text-center pt-5 lang" lang-key="contact">Kontakt</h1>
 				<div class="contact-infos">
-					<h2 class="contact-quote aos-init aos-animated smooth-scroll " data-aos-once="true" data-aos="fade-right" data-aos-duration="1000">Kontaktujte
+					<h2 class="contact-quote aos-init aos-animated smooth-scroll lang" lang-key="contact--text-one" data-aos-once="true" data-aos="fade-right" data-aos-duration="1000">Kontaktujte
 						nás telefonicky...</h2>
 					<div class="row contact-options  text-center">
 						<div class="col-12 col-sm-6 phone">
@@ -275,9 +266,8 @@
 							</div>
 						</div>
 					</div>
-					<h2 id="contactFormQt" class="contact-quote aos-init aos-animated" data-aos-once="true" data-aos="fade-down"
-					 data-aos-duration="1000">...nebo využijte přímo našeho kontaktního
-						formuláře a my se ozveme Vám!</h2>
+					<h2 id="contactFormQt" class="contact-quote aos-init aos-animated lang" lang-key="contact--text-two" data-aos-once="true" data-aos="fade-down"
+					 data-aos-duration="1000">...nebo využijte přímo našeho kontaktního formuláře a my se ozveme Vám!</h2>
 				</div>
 
 				<form id="contactForm" method='POST' class="aos-init aos-animated" data-aos-once="true" data-aos="fade-up"
@@ -291,7 +281,7 @@
 					<input class="form-grp f-inpt animated" type="text" name="year" placeholder="Aktuální rok." id="year" class="animated">
 					<textarea class="form-grp f-txtar animated" type="text" name="msg" placeholder="Text vaší zprávy." id="msg" class="animated"><?= htmlspecialchars($msg) ?></textarea>
 					<p>
-						<button class="full submit-button" id="submit" type="submit">ODESLAT</button>
+						<button class="full submit-button lang" id="submit" type="submit" lang-key="contact--button-send">ODESLAT</button>
 					</p>
 					<div class="statusElm"></div>
 				</form>
@@ -318,13 +308,12 @@
 		</div>
 	</div>
 
-	<h1 style="background-color: whitesmoke; padding: 1em;margin: 0;text-align: center;font-weight: 100;">Kde
-		Nás Najdete?</h1>
+	<h1 class="lang" style="background-color: whitesmoke; padding: 1em;margin: 0;text-align: center;font-weight: 100;" lang-key="map--heading">Kde Nás Najdete?</h1>
 
 	<div id="mapID" class=" aos-init aos-animated" data-aos-once="true" data-aos="fade-up" data-aos-duration="1000">
 	</div>
 
-	<div class="container-fluid dark">
+<!-- 	<div class="container-fluid dark">
 		<div id="timeline" class="container pt-4">
 			<div class="row justify-content-center">
 				<h1 class="display-4 mt-0 col-12 text-center pt-5">Timeline</h1>
@@ -333,7 +322,7 @@
 				</div>
 			</div> 
 		</div> 
-	</div>
+	</div> -->
 
 
 

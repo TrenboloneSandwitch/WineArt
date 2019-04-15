@@ -39,10 +39,17 @@ class UiHandler {
         });
     }
 
+    createOfferContent(data, _list, _tabContent) {
+        this.makeList(data, _list);
+        this.createSupplierInfo(data, _tabContent);        
+        this.createWinesGrid(data);
+        this.correctProportions();
+    }
+
     makeList(data, list) {
+        
         let html = '';
         (Object.keys(data)).forEach(key => {
-            
             // Create html fo ul
             html += `
             <li class="nav-item aos-init aos-animated m-1" data-aos-once="true" data-aos="fade-down" data-aos-duration="1000">
@@ -77,6 +84,8 @@ class UiHandler {
     }
 
     createSupplierInfo(data, tabContent) {
+        tabContent.innerHTML = '';
+        
         let html = '';
         (Object.keys(data)).forEach(key => {
             const classes = 'tab-pane fade';

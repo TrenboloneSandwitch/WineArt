@@ -1,0 +1,134 @@
+{
+    "pinot": {
+        "hr": "pills-pinot-chev",
+        "name": "Pinot-Chevauchet Champagne",
+        "img": "img/wines/pinot-house.jpg",
+        "logo": "img/crbst_logo.png",
+        "text": "Champagne house Pinot-Chevauchet is a small family winery, located in the heart of Champagne region, in a small village named Moussy (4 km away from Epernay).             27 Premiere-Cru vineyards covering 4 acres of ground. The local wines are strongly influenced by the specific lime-clayey teroir. The annual production of this house is 35,000 bottles. High quality standard is guaranteed by maturing all bottles for at least 5 years.",
+        "id": 1,
+        "bottles": [{
+                "id": "1",
+                "name": "Cuvée Joyeuse Brut",
+                "species": ["80% - Meunier", "20% - Chardonnay"],
+                "dosage": "8",
+                "img": "img/wines/crbst_joyeuse_20brut.png",
+                "description": ["harmonic mineral wine with honey tones and a dry fruit finish"]
+            },
+            {
+                "id": "2",
+                "name": "Cuvée Généreuse Brut Nature",
+                "species": ["90% Meunier", "10% Chardonnay"],
+                "dosage": "2",
+                "img": "img/wines/2.png",
+                "description": ["fresh, pleasant wine with a touch of white fruit", "minimally 5 years maturing on yeast, then stored in cellar for one year"]
+            },
+            {
+                "id": "3",
+                "name": "Distinguée",
+                "species": ["100% - Chardonnay"],
+                "dosage": "3,5",
+                "img": "img/wines/crbst_blanc_20de_20blanc.png",
+                "description": ["mineral, very fresh wine with a touch of ripe fruit", "TOP offer (bronze medal Decanter 2017 – 89b.)"]
+            },
+            {
+                "id": "4",
+                "name": "Distinguée",
+                "species": ["100% - Chardonnay"],
+                "dosage": "3,5",
+                "img": "img/wines/crbst_blanc_20de_20blanc.png",
+                "description": ["mineral, very fresh wine with scent of ripe fruit", "Cuvée Blanc de Blancs Extra Brut Premier-Cru <b>MAGNUM</b>"]
+            },
+            {
+                "id": "5",
+                "name": "Vintage 2008 Premier-Cru Blanc de Blancs",
+                "species": ["100% - Chardonnay"],
+                "dosage": "7,5",
+                "img": "img/wines/crbst_millesime_202008.png",
+                "description": ["elegant and fresh wine from this extraordinary vintage with very fine sparkling", "beautifully complements the aromas of toasts and fresh brioches"]
+            },
+            {
+                "id": "6",
+                "name": "Cuvée Précieuse Brut Premier-Cru",
+                "species": ["50% - Meunier", "50% - Chardonnay"],
+                "dosage": "7,5",
+                "img": "img/wines/crbst_precieuse.png",
+                "description": ["wonderful, well-balanced champagne that truly shows the freshness and softness of Chardonnay and fruit taste of Pinot Meunier", "champagne with a touch of citruses and vanilla"]
+            },
+            {
+                "id": "7",
+                "name": "Cuvée Rêveuse Brut Rosé",
+                "species": ["50% - Chardonnay", "30% - Meunier", "20% - Pinot Noir"],
+                "dosage": "8",
+                "img": "img/wines/crbst_ros_C3_A9.png",
+                "description": ["light pink, purely bright color with soft and rich in bubbles", "fresh and elegant scent combining the delicate aroma of strawberries, raspberries and citruses"]
+            }
+        ]
+    },
+    "collet": {
+        "hr": "pills-collet",
+        "name": "Domaine Collet Champagne",
+        "img": "img/wines/domaine-house.jpg",
+        "logo": "img/logoDomaine1.png",
+        "text": "Very young and progressive winery located in Sezanne region with three brothers (Thomas, Vincent and Florent) in charge. The main cultivated varieties are Chardonnay and Pinot Noir, which are typical for that area and based on that fact, it is easy to reveal local terroir. Typical for their wines is fermentation in wooden barrels.",
+        "id": 2,
+        "bottles": [{
+                "id": "1",
+                "name": "Empreinte de Terroir Brut",
+                "species": ["70% - Chardonnay", "30% - Pinot Noir"],
+                "dosage": "7-8",
+                "img": "img/wines/Empreinte-Brut.png",
+                "description": ["pleasant expressive scent with tones of apples and peaches finishing with lightly almond aroma", "the flavor reminiscent citruses and exotic fruits. Extraordinary and fresh summer champagne"]
+            },
+            {
+                "id": "2",
+                "name": "Empreinte de Terroir Rosé",
+                "species": ["59% - Pinot Noir", "41% - Chardonnay"],
+                "dosage": "8",
+                "img": "img/wines/Rose.png",
+                "description": ["pink champagne with exceptional fruitiness, intense aroma with red fruit dominance — wild strawberries, cherries, raspberries", "you can find distinctive tones of red fruits in taste and it is all wrapped up in a beautiful refined form"]
+            },
+            {
+                "id": "3",
+                "name": "Empreinte de Terroir Chardonnay ",
+                "species": ["100% - Chardonnay"],
+                "dosage": "6",
+                "img": "img/wines/Chardonnay.png",
+                "description": ["fresh mineral scent with flowers and citruses", "pleasant, fresh, typical Blanc de Blancs for this area"]
+            },
+            {
+                "id": "4",
+                "name": "Empreinte de Terroir Extra Brut",
+                "species": ["72% - Chardonnay", "28% - Pinot Noir"],
+                "dosage": "1",
+                "img": "img/wines/Extra-Brut.png",
+                "description": ["yellow and white fruit scent", "very low dosage, perfect balance of taste between acidity and fruitiness"]
+            },
+            {
+                "id": "5",
+                "name": "Anthime Héritage",
+                "species": ["70% - Chardonnay", "30% - Pinot Noir"],
+                "dosage": "3.6",
+                "img": "img/wines/ANTHIME-heritage.png",
+                "description": ["great complex champagne, selection of the best grapes", "scent has at first caramel or butter tones like freshly baked brioches, then it smoothly goes into mineral and fruit tones", "very richly structured taste with a long finish"]
+            },
+            {
+                "id": "6",
+                "name": "Anthime Sensation",
+                "species": ["78% - Pinot Noir", "22% - Chardonnay"],
+                "dosage": "5.5",
+                "img": "img/wines/ANTHIME-sensation.png",
+                "description": ["this highlights the importance of the Pinot Noir for this winery. Grapes come from 70 years old vineyards ,,Les Vignes“ macerated by the „Rosé de Saignée“ method", "really pleasant aroma with prevailing strawberry-raspberry tones", "full, fresh rosé with soft tones of wooden barrels"
+                ]
+            },
+            {
+                "id": "7",
+                "name": "Anthime Extreme",
+                "species": ["100% - Chardonnay"],
+                "dosage": "2",
+                "img": "img/wines/ANTHIME-extreme.png",
+                "description": ["unique champagne, grapes from one vineyard, microvinification in wooden barrels, low dosage", "beautiful fresh champagne with tones of fresh and baked nuts", "the dominant citrus and mineral flavor adorns this prestigious cuvée"]
+            }
+        ]
+    }
+
+}

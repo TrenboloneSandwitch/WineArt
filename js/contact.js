@@ -1,24 +1,40 @@
-console.log("nahrano");
-$(document).ready(function () {
+
   $('#submit').click(function (event) {
-    console.log("button clicked");
+    const lang = localStorage.getItem('language');
 
-    var name = $('#name');
-    var nameVal = name.val().trim();
-    var subject = $('#subject');
-    var subjectVal = subject.val().trim();
-    var email = $('#email');
-    var emailVal = email.val().trim();
-    var msg = $('#msg');
-    var msgVal = msg.val().trim();
+    const name = $('#name');
+    const nameVal = name.val().trim();
+    const subject = $('#subject');
+    const subjectVal = subject.val().trim();
+    const email = $('#email');
+    const emailVal = email.val().trim();
+    const msg = $('#msg');
+    const msgVal = msg.val().trim();
 
-    var year = $('#year');
-    var yearVal = year.val();
+    const year = $('#year');
+    const yearVal = year.val();
 
-    var date = new Date();
+    const date = new Date();
 
-    var statusELM = $('.statusElm');
+    const statusELM = $('.statusElm');
     statusELM.empty();
+
+    const arrLang = {
+      'en': {
+        'name': 'Please, use your full name.',
+        'subject': 'Please check the message subject. It should contain at least four characters.',
+        'email': 'Please check if email is valid',
+        'year': 'Please check that the current year is correct. This input serves as a protection against spam.',
+        'msg' : 'Do you really send such a short message?'
+      },
+      'cs': {
+        'name': 'Uveďte prosím celé své jméno.',
+        'subject': 'Zkontrolujte si prosím předmět zprávy. Měl by obsahovat, alespoň čtyři znaky.',
+        'email': 'Zkontrolujte si prosím správně vyplněný e-mail.',
+        'year': 'Zkontrolujte si prosím správnost aktuálně vyplněného roku. Tento údaj nám slouží jako ochrana před spamem.',
+        'msg' : 'Opravdu chcete poslat takto krátkou zprávu?'
+      }
+    }    
 
     // Validace jednotlivých prvků
     if (nameVal.length > 5 && nameVal.includes(' ')) {
@@ -26,7 +42,7 @@ $(document).ready(function () {
 
     } else {
       event.preventDefault();
-      statusELM.append('<div class="red-alert">Uveďte prosím celé své jméno.</div>')
+      statusELM.append(`<div class="red-alert">${arrLang[lang].name}</div>`)
       addErrorEffect(name, 'shake');
     }
 
@@ -34,7 +50,7 @@ $(document).ready(function () {
       subject.css('box-shadow', '0 0 0 1px black');
     } else {
       event.preventDefault();
-      statusELM.append('<div class="red-alert">Zkontrolujte si prosím předmět zprávy. Měl by obsahovat, alespoň čtyři znaky.</div>')
+      statusELM.append(`<div class="red-alert">${arrLang[lang].subject}</div>`)
       addErrorEffect(subject, 'shake');
     }
 
@@ -42,7 +58,7 @@ $(document).ready(function () {
       email.css('box-shadow', '0 0 0 1px black');
     } else {
       event.preventDefault();
-      statusELM.append('<div class="red-alert">Zkontrolujte si prosím správně vyplněný e-mail.</div>')
+      statusELM.append(`<div class="red-alert">${arrLang[lang].email}</div>`)
       addErrorEffect(email, 'shake');
     }
 
@@ -50,7 +66,7 @@ $(document).ready(function () {
       year.css('box-shadow', '0 0 0 1px black');
     } else {
       event.preventDefault();
-      statusELM.append('<div class="red-alert">Zkontrolujte si prosím správnost aktuálně vyplněného roku. Tento údaj nám slouží jako ochrana před spamem.</div>')
+      statusELM.append(`<div class="red-alert">${arrLang[lang].year}</div>`)
       addErrorEffect(year, 'shake');
     }
 
@@ -58,18 +74,17 @@ $(document).ready(function () {
       msg.css('box-shadow', '0 0 0 1px black');
     } else {
       event.preventDefault();
-      statusELM.append('<div class="red-alert">Opravdu chcete poslat takto krátkou zprávu?</div>')
+      statusELM.append(`<div class="red-alert">${arrLang[lang].msg}</div>`)
       addErrorEffect(msg, 'shake');
     }
 
   });
-});
+
 
 
 function addErrorEffect(elementName, animationName) {
-
   animationend = 'animationend oAnimationEnd mozAnimationEnd webkitAnimationEnd';
-  elementName.addClass(animationName).one(animationend, function () {
+  elementName.addClass(animationName).one(animationend, () => {
     elementName.removeClass(animationName);
   });
 
